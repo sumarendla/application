@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("images/parallax.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+html{
+    color: white;
+    font-size: 10px;
+   }
+ .parallax-name1 h1{
+    background-color: black;
+    padding: 1rem 2rem;
+    width: 15%;
+    text-align: center;
+    margin-left: 40%;
+    margin:28rem auto;
+    position: relative;
+    font-size: 2.4rem;
+ }
+ .parallax-para1{
+    background-color: black;
+    font-size: 1.8rem;
+    padding: 5rem 6rem;
+    font-family: Verdana;
+ }
+ .parallax-name2 h1{
+    background-color:white;
+    width:14%;
+    margin:28rem auto;
+    position: relative;  
+    color: black;
+    font-size: 3.2rem;
+    font-weight: bold;
+    height: 4rem;
+    padding: 1rem 4rem;
+     }
+ .parallax-para2{
+    background-color: black;
+    font-size: 1.8rem;
+    padding: 2rem 6rem;
+    font-family: Verdana;
+ }
