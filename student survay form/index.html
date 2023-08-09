@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student survay form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+    <div>
+    <h1 class="main-heading">Odinschool Survey Form</h1>
+</div>
+<form id="form">
+    <div class="survay-details">
+        <label for="name">Name</label><br>
+        <input type="text" placeholder="Enter your name" id="name"><br>
+        <label for="email">Email</label><br>
+        <input type="text" placeholder="Enter your email" id="email"><br>
+        <label for="age">Age</label><br>
+        <input type="number" placeholder="Enter your Age" id="age"><br>
+        <label for="role" >Which option best describes you?</label><br>
+            <select>
+        <option value="student">student</option>
+        <option value="intern">intern</option>
+        <option value="professional">professional</option>
+        <option value="other">other</option>
+</select>
+    </div>
+<div class="radio-list ">
+<label for="radio" >Would you recommend Odinschool to a friend?</label><br>
+<input type="radio" name="radio-option" id="radio-option1">
+<label for="radio-option1">Yes</label><br>
+
+<input type="radio" name="radio-option" id="radio-option2">
+<label for="radio-option2">No</label><br>
+
+<input type="radio" name="radio-option" id="radio-option3">
+<label for="radio-option3">May be</label><br>
+
+</div>
+
+<div class="checkbox-list ">
+<label for="checkbox">Languages and Frameworks known (Check all that apply)</label><br>
+<input type="checkbox" name="checkbox" >
+<label for="checkbox1">C</label><br>
+
+
+<input type="checkbox" name="checkbox" >
+<label for="checkbox2">C++</label><br>
+
+<input type="checkbox" name="checkbox" >
+<label for="checkbox3">C#</label><br>
+
+<input type="checkbox" name="checkbox" >
+<label for="checkbox4">Java</label><br>
+
+<input type="checkbox" name="checkbox" >
+<label for="checkbox5">Python</label><br>
+
+<input type="checkbox" name="checkbox" >
+<label for="checkbox6">React</label><br>
+
+<input type="checkbox" name="checkbox" >
+<label for="checkbox7">Django</label><br>
+
+<input type="checkbox" name="checkbox" >
+<label for="checkbox8">Angular</label><br>
+</div>
+ 
+    <div class="text-area survay-details">
+        <label for="comment">Any comments or suggestions</label>
+        <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+    </div>
+    <button class="submit">Sumbit</button>
+</form>
+ </div>   
+</body>
+</html>

@@ -1,0 +1,75 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+position: relative;
+}
+body{
+    background-color: #05c46b;
+
+    text-align: center;
+
+}
+html{
+    font-size: 10px;
+
+
+}
+.main-heading{
+    font-size: 3.5rem;
+    text-align: center;
+margin-top: 2rem;
+}
+#form{
+    background-color: #fff;
+    max-width: 55rem;
+    margin: 5rem auto;
+    padding: 3rem 2rem;
+    height: 98rem;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.survay-details label{
+    padding-bottom: 5rem;
+    font-size: 1.8rem;
+    
+
+
+}
+.survay-details{
+    text-align: left;
+    width: 100%;
+}
+.survay-details input,.survay-details textarea,.survay-details select{
+    border: 1px solid #777;
+    border-radius: 2px;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    
+    
+
+}
+.checkbox-list,.radio-list{
+    display: block;
+    text-align: left;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-top: 2rem;
+
+}
+.text-area{
+margin-top: 1.5rem;
+font-size: 1.8rem;
+}
+.submit{
+    width: 95%;
+    background-color: #05c46b;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-right: 1.3rem;
+    border: 1px solid #777;
+}
+
+
